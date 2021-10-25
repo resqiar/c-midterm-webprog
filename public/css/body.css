@@ -1,0 +1,29 @@
+.body-wrapper {
+	display: flex;
+}
+
+.profile-wrapper {
+	flex: 0.25;
+	padding: 18px 18px 18px 5%;
+}
+
+.content-wrapper {
+	flex: 0.75;
+	margin: 5% 5% 18px 18px;
+}
+
+@media only screen and (max-width: 600px) {
+	.body-wrapper {
+		flex-direction: column;
+	}
+
+	.profile-wrapper {
+		flex: content;
+		padding: 18px 18px 0px 18px;
+	}
+
+	.content-wrapper {
+		flex: content;
+		margin: 0x;
+	}
+}

@@ -1,0 +1,150 @@
+.markdown-wrapper {
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	border-radius: 8px;
+	padding: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+	.markdown-wrapper {
+		padding: 18px;
+	}
+}
+
+.markdown-wrapper h1 {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: 8px;
+}
+
+.markdown-wrapper a {
+	text-decoration: none;
+}
+
+.markdown-wrapper a:hover {
+	text-decoration: underline;
+}
+
+.breadcrumb-wrapper {
+	margin-bottom: 16px;
+	font-size: 13px;
+}
+
+.breadcrumb-wrapper a {
+	text-decoration: none;
+	color: inherit;
+	font-size: 13px;
+}
+
+.breadcrumb-wrapper a:hover {
+	color: rgb(9, 105, 218);
+}
+
+.github-stats {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.github-stats img {
+	max-width: 100%;
+}
+
+.toc-wrapper {
+	padding: 8px 16px;
+}
+
+.toc-wrapper h1 {
+	margin-left: -18px;
+}
+
+.toc-wrapper ul {
+	padding: 0px 0px 0px 18px;
+}
+
+.hw-wrapper {
+	margin: 8px 0px;
+}
+
+.skills-wrapper {
+	margin: 8px 0px;
+}
+
+.skills-wrapper ul {
+	padding: 8px 28px;
+}
+
+.tools-wrapper {
+	margin: 8px 0px;
+}
+
+.tools-wrapper img {
+	max-width: 100%;
+}
+
+.projects {
+	margin: 8px 0px;
+}
+
+.projects ul {
+	padding: 8px 28px;
+}
+
+.featured-project {
+	margin: 8px 0px;
+}
+
+.featured-project img {
+	max-width: 100%;
+}
+
+.featured-project ul {
+	margin: 8px 28px;
+}
+
+@media only screen and (max-width: 600px) {
+	.featured-project ul {
+		padding: 8px;
+	}
+}
+
+.hot-project {
+	margin: 18px 0px;
+}
+
+.hot-project div {
+	display: flex;
+	gap: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+	.hot-project div {
+		flex-direction: column;
+	}
+	.hot-project img {
+		max-width: 100%;
+	}
+}
+
+.wakatime-stats {
+	margin: 18px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+	.wakatime-stats img {
+		max-width: 100%;
+	}
+}
+
+.wakatime-stats blockquote {
+	font-size: 14px;
+	color: rgb(87, 96, 106);
+	padding: 2px 16px;
+	border-left: 4px solid #d0d7de;
+}
+
+.reach-me {
+	margin: 18px 0px;
+}
+
+.reach-me ul {
+	margin: 8px 28px;
+}

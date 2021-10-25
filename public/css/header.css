@@ -1,0 +1,77 @@
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgb(36, 42, 47);
+	padding: 16px 5%;
+}
+
+.logo-wrapper {
+	color: #fff;
+	padding: 4px;
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.logo-wrapper a {
+	text-decoration: none;
+	color: inherit;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.logo-wrapper a .brand-title-logo {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+.info-original-page p {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	margin-top: 2px;
+	font-size: 14px;
+}
+
+.info-original-page p a {
+	color: rgb(6, 69, 173);
+}
+
+.info-original-page p a:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+	.info-original-page {
+		display: none;
+	}
+}
+
+.auth-wrapper {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.auth-wrapper a {
+	color: rgba(255, 255, 255);
+	text-decoration: none;
+}
+
+.auth-wrapper .sign-in:hover {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.auth-wrapper .sign-up {
+	padding: 6px 12px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+
+.auth-wrapper .sign-up:hover {
+	color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(255, 255, 255, 0.8);
+}

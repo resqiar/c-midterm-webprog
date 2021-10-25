@@ -1,0 +1,18 @@
+.info-page-responsive {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	margin: 2px;
+	gap: 8px;
+}
+
+.info-page-responsive p {
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+	.info-original-page p {
+		font-size: 12px;
+	}
+}
